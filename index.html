@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Complete Responsive Portfolio Website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+	integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+	<div class="container">
+		<div class="navigation">
+			<ul>
+				<li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+				<li><a href="#about" onclick="toggleMenu();">About</a></li>
+				<li><a href="#services" onclick="toggleMenu();">Service</a></li>
+				<li><a href="#project" onclick="toggleMenu();">Project</a></li>
+				<li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+				<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<div class="topbar">
+				<a href="#" class="logo">Portfolio</a>
+				<div class="toggle">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</div>
+			</div>
+
+			<section class="banner" id="banner">
+				<div class="content">
+					<div class="imgBx">
+						<img src="./images/user.jpg">
+					</div>
+					<h3>Andrei Dokuchaev</h3>
+					<p>I'm Creative Front End Web Developer.</p>
+					<a href="../CV/cv1/index.html" class="btn">Download my CV</a>
+					<ul class="socialMedia">
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="about adjust" id="about">
+				<div class="title">
+					<h2>About Me</h2>
+				</div>
+				<div class="content">
+					<div class="textBox">
+						<p>Hello everybody! I want to tell a little about myself. I was born in Russia on 10/13/1992 in Yekaterinburg. 
+							Since childhood, I have been a hardworking and cheerful person. During my time at school, I began to get carried away with the computer and its capabilities. 
+							As a teenager, I graduated from a music and art school. Later he graduated from high school and went to college. After college, I went to serve in the army. 
+							In Russia, military service is compulsory for men.<br><br> After the army, I went to university and started working at the same time. During my studies, I found a good international company where I worked and developed for 7 years. 
+							I showed myself from the best side as I was a multidisciplinary person. I had 3 career promotions from engineer to department head. But not everything was good with the Russian economy and our company had problems.
+							I went to live and work in Warsaw.<br><br> While living in Europe, I independently studied web design and front-end development. I was fond of video shooting and editing. I have many positive qualities such as diligence, attentiveness, sociability, responsibility, responsibility and many others. 
+							At the moment I live in Istanbul and continue to develop in the field of web design and front-end development. At the moment I am looking for a job in a modern, actively developing company for the position of junior front end developer. <br><br>Thank you for your attention!</p>
+					</div>
+					<div class="imgBx">
+						<img src="./images/me.jpg">
+					</div>
+				</div>
+			</section>
+
+			<section class="services adjust" id="services">
+				<div class="title">
+					<h2>My Services</h2>
+					<p>To your attention there can be the following services</p>
+				</div>
+				<div class="content">
+					<div class="serviceBox">
+						<img src="./images/icon1.png">
+						<h2>Web desigen</h2>
+						<p>Creating a user-friendly and intuitive design. Preparation of convenient navigation and careful selection of colors and fonts.</p>
+					</div>
+					<div class="serviceBox">
+						<img src="./images/icon2.png">
+						<h2>Layout of sites</h2>
+						<p>Hight quality front end development by HTML, CSS, Javascript.</p>
+					</div>
+					<div class="serviceBox">
+						<img src="./images/icon7.png">
+						<h2>Banner design</h2>
+						<p>Creation of beautiful vector drawings, characters. Development of modern and unique logos.</p>
+					</div>
+					<div class="serviceBox">
+						<img src="./images/icon6.png">
+						<h2>Vide creating</h2>
+						<p>Creation of video clips for YouTube, Instagram Tiktok. High-quality color correction of the image, modern effects with the right musical accompaniment.</p>
+					</div>
+					<div class="serviceBox">
+						<img src="./images/icon8.png">
+						<h2>Design development for mobile devices</h2>
+						<p>Creation of a modern and convenient, intuitive design of mobile applications. Preparation of convenient navigation and careful selection of colors and fonts.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="project adjust" id="project">
+				<div class="title">
+					<h2>Recent work</h2>
+					<p>Presented to your attention</p>
+				</div>
+				<div class="content">
+					<div class="workBx">
+						<div class="imgBx">
+							<img src="./images/Night City.png", width="350px">
+						</div>
+						<div class="textBx">
+							<h3>Vector Night City</h3>
+						</div>
+					</div>
+					<div class="workBx">
+						<div class="imgBx">
+							<img src="./images/landscape.png", width="350px">
+						</div>
+						<div class="textBx">
+							<h3>Vector landscape</h3>
+						</div>
+					</div>
+					<div class="workBx">
+						<div class="imgBx">
+							<img src="./images/Mars.png", width="350px">
+						</div>
+						<div class="textBx">
+							<h3>Vector Mars</h3>
+						</div>
+					</div>
+					<div class="workBx">
+						<div class="imgBx">
+							<img src="./images/img1.png", width="350px">
+						</div>
+						<div class="textBx">
+							<h3>Animation Buttons</h3>
+						</div>
+					</div>
+					<div class="workBx">
+						<div class="imgBx">
+							<img src="./images/img2.png", width="350px">
+						</div>
+						<div class="textBx">
+							<h3>Circle Animation Reiting</h3>
+						</div>
+					</div>
+					<div class="workBx">
+						<div class="imgBx">
+							<img src="./images/img3.png", width="350px">
+						</div>
+						<div class="textBx">
+							<h3>Clook</h3>
+						</div>
+					</div>
+					<div class="workBx">
+						<div class="imgBx">
+							<img src="./images/img4.png", width="350px">
+						</div>
+						<div class="textBx">
+							<h3>3D Animation Square</h3>
+						</div>
+					</div>
+					<div class="workBx">
+						<div class="imgBx">
+							<img src="./images/img5.png", width="350px">
+						</div>
+						<div class="textBx">
+							<h3>Liquid Animation Admin Bar</h3>
+						</div>
+					</div>
+					<div class="workBx">
+						<div class="imgBx">
+							<img src="./images/img6.png", width="350px">
+						</div>
+						<div class="textBx">
+							<h3>Dashboard</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="testimonials adjust" id="testimonials">
+				<div class="title">
+					<h2>Testimonials</h2>
+					<p>Luckily, there are no reviews yet! But you will be the first to order my service!</p>
+				</div>
+				<div class="content">
+					<div class="testimonialsBox"> 
+						<div id="tsparticles"></div>
+						<form>
+								<a href="../CV/cv1/index.html" class="btn">Be first!</a>
+						</form>
+					</div>
+					<div id="particles-js"></div>
+				</div>
+			</section>
+
+			<section class="contact adjust" id="contact">
+				<div class="title">
+					<h2>Let's say Hi</h2>
+					<p>Contacting with me</p>
+				</div>
+				<div class="contactForm">
+					<div class="row">
+						<input type="text" name="" placeholder="First Name">
+						<input type="text" name="" placeholder="Last Name">
+					</div>
+					<div class="row">
+						<input type="text" name="" placeholder="Email Address">
+						<input type="text" name="" placeholder="Mobile No.">
+					</div>
+					<div class="row2">
+						<textarea placeholder="Massage"></textarea>
+					</div>
+					<div class="row2">
+						<input type="submit" value="Send">
+					</div>
+				</div>
+			</section>
+			<div class="coopyright">
+				<p>Coopyright © 2022 My Work Portfolio. All Right Reserved.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+		let toggle = document.querySelector('.toggle');
+		let topbar = document.querySelector('.topbar');
+		let navigation = document.querySelector('.navigation');
+		let main = document.querySelector('.main');
+		toggle.onclick = function(){
+			toggle.classList.toggle('active');
+			topbar.classList.toggle('active');
+			navigation.classList.toggle('active');
+			main.classList.toggle('active');
+		}
+		function toggleMenu(){
+		let navigation = document.querySelector('.navigation');
+		let main = document.querySelector('.main');
+		navigation.classList.remove('active');
+		main.classList.remove('active');
+		}
+	</script>
+	<script type="text/javascript" src="particles.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
